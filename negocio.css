@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+.contenedor{
+    font-size: 25px;
+}
+/*Comienzo del header*/
+.encabezado{
+    background-color: rgb(2, 2, 2);
+    display: inline-block;
+    color: white;
+    font-family: 'Merriweather', serif;
+    width: 100%;
+}
+.menu__separacion{
+    color: white;
+    text-align: center;
+}
+.menu__link{
+    color: white;
+}
+/*Comienzo de main*/
+.principal{
+    padding: 30px;  
+}
+.principal__titulo{
+    padding-bottom: 30px;
+}
+.principal__imagen{
+    margin:  auto;
+   width: 50%;
+   height: 450px;
+   padding-top: 50px; 
+   display: block; 
+}
+
+/*Comienzo del section*/
+.seccion{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 250);
+    height: 600px;
+    padding: 30px;
+}
+.seccion__imagen{
+    display: block;
+    margin:  auto;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+/*Comienzo del aside*/
+.complementario{
+    text-align: center;
+    padding: 30px;
+    height: 550px;
+    background-color: rgba(185, 185, 185, 0.877);
+}
+.complementario__imagen{
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+/*Comienzo del footer*/
+.pie{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: medium;
+}
+
+
